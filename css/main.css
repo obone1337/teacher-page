@@ -1,0 +1,283 @@
+/*** sectioning elements ***/
+
+
+/***reference***/
+ .fakestuff {
+font-family: 'Abel', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+}
+
+body {
+  background-image: url("../img/flufyclouds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+
+header, footer, main, body {
+  color: #dbdcd7;
+
+}
+
+header {
+
+}
+
+main {
+
+}
+
+.row {
+  background-color: white;
+  padding: 5px;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+.navbar, .navbar-menu {
+ background: linear-gradient(#fbcc4b, #f8aa47);
+ border-color: white;
+ font-family: 'Russo One', sans-serif;
+}
+/**** content styles ***/
+
+
+h1 {
+font-family: 'Russo One', sans-serif;
+background: -webkit-linear-gradient(#ff0603, #9c0000);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent
+}
+
+h2 {
+font-family: 'Russo One', sans-serif;
+background: -webkit-linear-gradient(#68c1ff, #3859c3);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent
+
+}
+
+h3 {
+font-family: 'Russo One', sans-serif;
+background: -webkit-linear-gradient(#68c1ff, #3859c3);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent
+
+}
+
+h4 {
+  font-family: 'Russo One', sans-serif;
+  background: -webkit-linear-gradient(#68c1ff, #3859c3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+h5 {
+  font-family: 'Russo One', sans-serif;
+  background: -webkit-linear-gradient(#68c1ff, #3859c3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+h6 {
+  font-family: 'Russo One', sans-serif;
+  background: -webkit-linear-gradient(#fbcc4b, #f8aa47);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+.yellow-d {
+  background: -webkit-linear-gradient(#fbcc4b, #f8aa47);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+.yellow {
+  font-family: 'Russo One', sans-serif;
+  background: -webkit-linear-gradient(#fbcc4b, #f8aa47);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+
+p {
+  color: grey;
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+
+}
+
+.mygrades {
+  color: grey;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.weekly {
+  color: grey;
+  font-family: 'Abel', sans-serif;
+  text-align: left;
+}
+
+.teacher-list {
+  color: grey;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+}
+
+li {
+
+}
+
+table {
+  text-align: center;
+  color: grey;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+tr {
+  text-align: center;
+  align-items: center;
+}
+
+th {
+  text-align: center;
+  align-items: center;
+}
+
+td {
+  text-align: center;
+  align-items: center;
+}
+
+caption {
+  font-family: 'Russo One', sans-serif;
+  background: -webkit-linear-gradient(#68c1ff, #3859c3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.g {
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(156,0,0)), color-stop(0.67, rgb(255,6,3)));
+background-image: -moz-linear-gradient(center bottom, rgb(14,173,173) 33%, rgb(255,6,3) 67% );
+padding: 5px;
+}
+
+.g > div { background: #fff; }
+
+
+
+/*** image styles ***/
+
+img.logo  {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.owl-carousel img {
+  border: 5px solid #f8aa47;
+  max-width: none;
+}
+
+.class-icons {
+  border: 5px solid #f8aa47;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.floaty-fred {
+  border: 5px solid #f8aa47;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+img.social {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    max-width: 100px;
+
+}
+
+/*** link styles ***/
+
+.navbar-menu a:link {
+  color: #9c0000;
+  text-decoration: none;
+}
+
+.navbar-menu a:visited {
+  color: #9c0000;
+  text-decoration: none;
+}
+
+.navbar-menu a:hover {
+  color: #3859c3;
+  text-decoration: none;
+}
+
+.navbar-menu a:active {
+  color: #9c0000;
+  text-decoration: none;
+}
+
+a:link {
+  color: #9c0000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9c0000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3859c3;
+  text-decoration: none;
+}
+
+a:active {
+  color: #9c0000;
+  text-decoration: none;
+}
